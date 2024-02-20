@@ -1,0 +1,19 @@
+import Navbar from "./components/Navbar"
+import Search from "./components/Search"
+import Product from "./components/Product"
+import Aboutus from "./components/Aboutus"
+import Footer from "./components/Footer"
+
+function App() {
+    return (
+        <>
+            <Navbar></Navbar>
+            <Search></Search>
+            <Product></Product>
+            <Aboutus></Aboutus>
+            <Footer></Footer>
+        </>
+    )
+}
+
+export default App
